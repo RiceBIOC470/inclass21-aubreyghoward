@@ -1,4 +1,4 @@
-
+%In class 21
 clear all
 % 1. Consider the system we discussed in class for a gene which is produced
 % and degraded: dx/dt = k - d*x. Now consider that this gene turns on a
@@ -23,12 +23,6 @@ hold off;
 % write code that simulates this system for several different starting
 % values of x and y. Plot the results and comment on them. 
 
-for i = 1:2
-    for ii = 1:2
-sol2 = ode23(@Q2func,[0 10],[i;ii]);
-figure(2);
-plot(sol2.x,sol2.y(1,:),'b.-','LineWidth',1,'Markersize',20); hold on;
-plot(sol2.x,sol2.y(2,:),'g.-','LineWidth',1,'MarkerSize',20); hold on;
-    end
-end
-
+for i = 1:5
+    for ii = 
+sol2 = ode23(@Q2func,[0 10],[0;0]);
