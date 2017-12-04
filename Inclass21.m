@@ -1,4 +1,11 @@
 %Inclass 21
+%GB comments
+1 90 Q1 function did not intitally work. Had to change your last line of script to:
+sol2 = ode23(@Q2func,[0 10],[0, 0]);
+Also, I would be careful in your wording. The rate is the change in some value over a period of time. The rate in production of gene 1 is not greater for every point. Look at the slope…its pretty even. 
+2 100
+overall 95
+
 
 %Adam: I appreciate the extension on this assingment. I feel very
 %comfortable now after having spent a little more time looking at the
